@@ -7,6 +7,10 @@ module.exports = {
         cyan: {
           400: '#226FB7',
         },
+      },
+      fontSize: {
+        sm: '7px',
+        base: '15px',
       }
     },
   },
