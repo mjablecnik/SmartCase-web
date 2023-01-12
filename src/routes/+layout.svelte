@@ -1,9 +1,9 @@
 <script>
   import '../app.css';
-  import SmartCaseLogo from './components/SmartCaseLogo.svelte';
-  import SmartCaseIcon from './components/SmartCaseIcon.svelte';
-  import MenuIcon from './components/MenuIcon.svelte';
-  import Button from './components/Button.svelte';
+  import SmartCaseLogo from '../lib/svg/SmartCaseLogo.svelte';
+  import SmartCaseIcon from '../lib/svg/SmartCaseIcon.svelte';
+  import MenuIcon from '../lib/svg/MenuIcon.svelte';
+  import Button from '../lib/components/Button.svelte';
 </script>
 
 
