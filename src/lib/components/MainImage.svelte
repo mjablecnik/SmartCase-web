@@ -1,4 +1,4 @@
-<img src="/images/main-image.png"/>
+<img src="/images/main-image.png" />
 
 <!--
 <div class="relative w-auto h-auto">
