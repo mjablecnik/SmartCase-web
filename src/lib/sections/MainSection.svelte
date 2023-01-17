@@ -12,6 +12,7 @@
       <Pill>Máme komplexní řešení</Pill>
       <MainTitle thickText="Marketingová řešení" thinText="na míru" description="Pomůžeme Vám rozjet Vaše podnikání!" />
       <ServiceLabels />
+      <Button clazz="py-4" filled="true" padding="pl-6 pr-1.5 py-1.5">Více informací</Button>
     </div>
     <MainImage />
   </div>
