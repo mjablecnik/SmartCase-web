@@ -6,7 +6,7 @@
 </script>
 
 <div class="container mx-auto">
-  <div class="flex justify-between pb-4 place-items-center p-8">
+  <div class="flex justify-between pb-4 place-items-center p-4 lg:p-8">
     <SmartCaseLogo />
     <div class="flex grid-cols-3 gap-4 lg:gap-10 place-items-center">
       <Button> Kontaktujte nás</Button>

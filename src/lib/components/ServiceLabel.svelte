@@ -16,6 +16,6 @@
   }
   .text-font {
     font-family: 'Poppins';
-    @apply font-light text-base text-black;
+    @apply font-light text-sm md:text-base text-black;
   }
 </style>
