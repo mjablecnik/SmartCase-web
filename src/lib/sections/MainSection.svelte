@@ -8,7 +8,7 @@
 
 <div class="container mx-auto block w-auto">
   <MainImage clazz="lg:hidden pl-12" />
-  <div class="grid grid-cols-2 p-8 items-start">
+  <div class="grid grid-cols-2 p-8 items-start sm:ml-20 lg:ml-0">
     <div class="grid gap-8">
       <Pill>Máme komplexní řešení</Pill>
       <MainTitle thickText="Marketingová řešení" thinText="na míru" description="Pomůžeme Vám rozjet Vaše podnikání!" />

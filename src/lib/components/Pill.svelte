@@ -11,6 +11,6 @@
   }
   .text-font {
     font-family: 'Poppins';
-    @apply font-light text-base text-cyan-400;
+    @apply font-light text-sm md:text-base text-cyan-400;
   }
 </style>

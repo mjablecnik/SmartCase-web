@@ -33,7 +33,7 @@
   }
   .text-font {
     font-family: 'Poppins';
-    @apply font-light text-sm lg:text-base;
+    @apply font-light text-xs lg:text-base;
   }
   .arrow {
     @apply inline-flex gap-1 lg:gap-3 items-center place-content-center;

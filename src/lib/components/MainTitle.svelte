@@ -14,14 +14,14 @@
 <style>
   .thick-text-font {
     font-family: 'Poppins';
-    @apply font-bold text-7xl text-cyan-400;
+    @apply font-bold text-5xl lg:text-5xl md:text-7xl xl:text-7xl text-cyan-400;
   }
   .thin-text-font {
     font-family: 'Poppins';
-    @apply font-thin text-7xl text-cyan-400;
+    @apply font-thin text-5xl lg:text-5xl md:text-7xl xl:text-7xl text-cyan-400;
   }
   .description-text-font {
     font-family: 'Poppins';
-    @apply font-light text-xl text-black;
+    @apply font-light text-base lg:text-base md:text-xl xl:text-xl text-black;
   }
 </style>
