@@ -1,4 +1,8 @@
-<img src="/images/main-image.png" />
+<script>
+  export let clazz = ""
+</script>
+
+<img src="/images/main-image.png" class="{clazz}" />
 
 <!--
 <div class="relative w-auto h-auto">
