@@ -1,11 +1,19 @@
-<div class="pill text-font w-fit py-1 px-3">
-  <slot />
+<script>
+  export let width = "w-fit";
+  export let padding = "pl-0";
+  export let margin = "py-0";
+  export let color = "bg-blue-200/60";
+</script>
+
+<div class="pill text-font {width} {margin} py-1 px-3 {color}">
+  <div class="{padding}">
+    <slot />
+  </div>
 </div>
 
 
 <style>
   .pill {
-    background: rgba(199, 219, 237, 0.57);
     box-shadow: 0px 4px 10px #C7DBED;
     border-radius: 17px;
   }
