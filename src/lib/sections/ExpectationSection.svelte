@@ -4,9 +4,9 @@
   import Graph from '../components/Graph.svelte';
 </script>
 
-<div class="p-8">
-  <div class="box flex">
-    <div class="box p-12 px-8 grid gap-4">
+<div class="p-8 hidden lg:block">
+  <div class="box box-radius flex">
+    <div class="box box-radius p-12 px-8 grid gap-4">
       <div class="text"> OČEKÁVÁNÍ </div>
       <MainTitle textSize="md" thickText="Důležité je" thinText="začít">
         Změna by měla být pouze lepší.<br/>A to my Vám zajistíme!
@@ -23,15 +23,44 @@
   </div>
 </div>
 
+<div class="py-8 block lg:hidden">
+  <div class="box box-radius flex large-box h-40">
+    <div class="box box-radius grid gap-4 w-52">
+      <div class="grid grid-cols-2 gap-3 px-5 py-1 items-end">
+        <Button clazz="py-4 h-14" padding="px-5"></Button>
+        <Button clazz="py-4 h-14" padding="px-5" filled="true"></Button>
+      </div>
+    </div>
+    <div class="grid grid-cols-2 gap-3 items-end p-4 pb-6">
+      <Graph color="red" titleText="" pillText="" titleColor="text-red-500" pillColor="bg-red-500/20" />
+      <Graph color="green" titleText="" pillText="" titleColor="text-green-500" pillColor="bg-green-500/20" />
+    </div>
+  </div>
+</div>
+
 
 <style>
+  .small-box {
+    width: 26rem;
+  }
+  .large-box {
+    width: 30rem;
+  }
   .box {
     background: #FFFFFF;
     border: 1px solid #FFFFFF;
     box-shadow: 0px 8px 28px rgba(34, 111, 183, 0.5);
-    border-radius: 3rem; 
   }
-
+  @media (max-width: 1024px) { 
+    .box-radius {
+      border-radius: 1.5rem; 
+    }
+  }
+  @media (min-width: 1025px) { 
+    .box-radius {
+      border-radius: 3rem; 
+    }
+  }
   .text {
     font-family: 'Poppins';
     @apply font-light text-base lg:text-lg text-cyan-400;
