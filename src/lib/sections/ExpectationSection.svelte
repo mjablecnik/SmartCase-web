@@ -4,7 +4,8 @@
   import Graph from '../components/Graph.svelte';
 </script>
 
-<div class="p-8 hidden lg:block">
+<!-- Desktop screen -->
+<div class="p-8 hidden xl:block">
   <div class="box box-radius flex">
     <div class="box box-radius p-12 px-8 grid gap-4">
       <div class="text"> OČEKÁVÁNÍ </div>
@@ -23,6 +24,27 @@
   </div>
 </div>
 
+<!-- Large Tablet screen -->
+<div class="py-4 pr-6 hidden lg:block xl:hidden">
+  <div class="box box-radius flex">
+    <div class="box box-radius p-12 px-8 grid gap-2">
+      <div class="text"> OČEKÁVÁNÍ </div>
+      <MainTitle textSize="md" thickText="Důležité je" thinText="začít">
+        Změna by měla být pouze lepší.<br/>A to my Vám zajistíme!
+      </MainTitle> 
+      <div class="grid grid-cols-2 gap-1 pt-4">
+        <Button clazz="py-0 hidden lg:block">Spolupráce</Button>
+        <Button clazz="py-0 hidden lg:block" filled="true">Naše výsledky</Button>
+      </div>
+    </div>
+    <div class="grid grid-cols-2 gap-6 m-12 items-center">
+      <Graph color="red" titleText="- 1.000%" pillText="Před spoluprací" titleColor="text-red-500" pillColor="bg-red-500/20" />
+      <Graph color="green" titleText="+ 10.000%" pillText="Po spolupráci" titleColor="text-green-500" pillColor="bg-green-500/20" />
+    </div>
+  </div>
+</div>
+
+<!-- Small Tablet screen -->
 <div class="py-8 block lg:hidden">
   <div class="box box-radius flex large-box h-40">
     <div class="box box-radius grid gap-4 w-52">

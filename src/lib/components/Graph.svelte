@@ -7,17 +7,17 @@
 </script>
 
 
-<div class="grid auto-rows-auto content-start">
+<div class="grid auto-rows-auto content-start gap-1">
   <div class="number {titleColor}">{titleText}</div>
   <div class="box"></div>
-  <Pill width="w-20 h-3 lg:h-7 lg:w-44" fontType="text-font2" padding="pl-2" margin="mt-2 lg:mt-6" color="{pillColor}">{pillText}</Pill>
+  <Pill width="w-20 h-3 lg:w-44 lg:h-7" fontType="text-font2" padding="pl-2" margin="mt-2 lg:mt-6" color="{pillColor}">{pillText}</Pill>
 </div>
 
 <style>
   .box {
     background: #FFFFFF;
     box-shadow: 0px 4px 15px rgba(34, 111, 183, 0.4);
-    @apply w-28 h-14 rounded-lg lg:w-72 lg:h-36 lg:rounded-2xl;
+    @apply w-28 h-14 rounded-lg lg:w-64 lg:h-32 lg:rounded-2xl xl:w-72 xl:h-36 xl:rounded-2xl;
   }
   @media (max-width: 1024px) { 
     .number {
