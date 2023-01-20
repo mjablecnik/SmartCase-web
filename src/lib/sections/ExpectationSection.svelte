@@ -25,8 +25,8 @@
 </div>
 
 <!-- Large Tablet screen -->
-<div class="py-4 pr-6 hidden lg:block xl:hidden">
-  <div class="box box-radius flex">
+<div class="py-4 hidden lg:block xl:hidden">
+  <div class="box box-radius flex big-box">
     <div class="box box-radius p-12 px-8 grid gap-2">
       <div class="text"> OČEKÁVÁNÍ </div>
       <MainTitle textSize="md" thickText="Důležité je" thinText="začít">
@@ -45,7 +45,7 @@
 </div>
 
 <!-- Small Tablet screen -->
-<div class="py-8 block lg:hidden">
+<div class="py-8 hidden md:block lg:hidden">
   <div class="box box-radius flex large-box h-40">
     <div class="box box-radius grid gap-4 w-52">
       <div class="grid grid-cols-2 gap-3 px-5 py-1 items-end">
@@ -60,18 +60,43 @@
   </div>
 </div>
 
+<!-- Mobile screen -->
+<div class="py-8 block md:hidden">
+  <div class="box box-radius flex w-80 h-28">
+    <div class="box box-radius grid gap-4 w-36">
+      <div class="grid grid-cols-2 gap-2 px-3 py-1 items-end">
+        <Button clazz="py-3 h-9" padding="px-2"></Button>
+        <Button clazz="py-3 h-9" padding="px-2" filled="true"></Button>
+      </div>
+    </div>
+    <div class="grid grid-cols-2 gap-4 items-end pl-3 pr-3 p-2 pb-4">
+      <Graph color="red" titleText="" pillText="" titleColor="text-red-500" pillColor="bg-red-500/20" />
+      <Graph color="green" titleText="" pillText="" titleColor="text-green-500" pillColor="bg-green-500/20" />
+    </div>
+  </div>
+</div>
+
 
 <style>
-  .small-box {
-    width: 26rem;
+  .big-box {
+    width: 60rem;
   }
   .large-box {
     width: 30rem;
   }
-  .box {
-    background: #FFFFFF;
-    border: 1px solid #FFFFFF;
-    box-shadow: 0px 8px 28px rgba(34, 111, 183, 0.5);
+  @media (max-width: 641px) { 
+    .box {
+      background: #FFFFFF;
+      border: 1px solid #FFFFFF;
+      box-shadow: 0px 6px 20px rgba(34, 111, 183, 0.5);
+    }
+  }
+  @media (min-width: 640px) { 
+    .box {
+      background: #FFFFFF;
+      border: 1px solid #FFFFFF;
+      box-shadow: 0px 8px 28px rgba(34, 111, 183, 0.5);
+    }
   }
   @media (max-width: 1024px) { 
     .box-radius {
