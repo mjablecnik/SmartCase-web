@@ -7,7 +7,7 @@
 </script>
 
 
-<MainImage clazz="lg:hidden pl-12" />
+<MainImage clazz="lg:hidden" />
 <div class="grid grid-cols-2">
   <div class="grid gap-8">
     <Pill>Máme komplexní řešení</Pill>

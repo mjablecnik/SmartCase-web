@@ -2,7 +2,20 @@
   export let clazz = ""
 </script>
 
-<img src="/images/main-image.png" class="{clazz}" />
+<img src="/images/main-image.png" class="{clazz} size" />
+
+<style>
+  @media (max-width: 767px) { 
+    .size {
+      width: 24rem; 
+    }
+  }
+  @media (min-width: 768px) { 
+    .size {
+      width: 34rem; 
+    }
+  }
+</style>
 
 <!--
 <div class="relative w-auto h-auto">
