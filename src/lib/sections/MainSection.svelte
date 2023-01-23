@@ -17,5 +17,5 @@
     <ServiceLabels />
     <Button clazz="py-4 hidden lg:block" filled="true" padding="pl-3 pr-1.5">Více informací</Button>
   </div>
-  <MainImage clazz="hidden lg:block md:pl-12 xl:pl-0" />
+  <MainImage clazz="hidden lg:block" />
 </div>
