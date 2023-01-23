@@ -19,7 +19,7 @@
     </div>
     <div class="grid grid-cols-2 gap-6 m-12 items-center">
       <Graph color="red" titleText="- 1.000%" pillText="Před spoluprací" titleColor="text-red-500" pillColor="bg-red-500/20" />
-      <Graph color="green" titleText="+ 10.000%" pillText="Po spolupráci" titleColor="text-green-500" pillColor="bg-green-500/20" />
+      <Graph color="green" titleText="+ 10.000%" pillText="Po spolupráci" titleColor="text-green-500" pillColor="bg-green-500/20" isActive />
     </div>
   </div>
 </div>
@@ -39,7 +39,7 @@
     </div>
     <div class="grid grid-cols-2 gap-6 my-12 mx-8 items-center">
       <Graph color="red" titleText="- 1.000%" pillText="Před spoluprací" titleColor="text-red-500" pillColor="bg-red-500/20" />
-      <Graph color="green" titleText="+ 10.000%" pillText="Po spolupráci" titleColor="text-green-500" pillColor="bg-green-500/20" />
+      <Graph color="green" titleText="+ 10.000%" pillText="Po spolupráci" titleColor="text-green-500" pillColor="bg-green-500/20" isActive />
     </div>
   </div>
 </div>
