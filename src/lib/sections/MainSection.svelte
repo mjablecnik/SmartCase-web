@@ -8,7 +8,7 @@
 
 
 <MainImage clazz="lg:hidden" />
-<div class="grid grid-cols-2 md:pl-8">
+<div class="grid lg:grid-cols-2">
   <div class="grid gap-8">
     <Pill>Máme komplexní řešení</Pill>
     <MainTitle thickText="Marketingová řešení" thinText="na míru">

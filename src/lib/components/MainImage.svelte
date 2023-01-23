@@ -5,12 +5,12 @@
 <img src="/images/main-image.png" class="{clazz} size" />
 
 <style>
-  @media (max-width: 767px) { 
+  @media (max-width: 660px) { 
     .size {
       width: 24rem; 
     }
   }
-  @media (min-width: 768px) { 
+  @media (min-width: 661px) { 
     .size {
       width: 34rem; 
     }
