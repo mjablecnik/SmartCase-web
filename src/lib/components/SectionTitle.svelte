@@ -7,7 +7,7 @@
 <div class="grid gap-2 text-center">
   <div class="text pb-4"> {labelText} </div>
   <span class="thick-text-font-md"> {titleText} </span> <br/>
-  <span class="description-text-font-md lg:w-1/2 justify-self-center"> <slot/> </span>
+  <span class="description-text-font-md lg:w-full justify-self-center"> <slot/> </span>
 </div>
 
 <style>
