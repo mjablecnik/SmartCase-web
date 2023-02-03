@@ -17,10 +17,10 @@
     <div class="px-8 md:pl-4 md:pr-16 lg:pr-0 items-start sm:ml-20 lg:ml-0 lg:mt-16">
       <ClientsSection />
     </div>
-    <div class="grid gap-12 px-16 md:px-8 items-start sm:ml-12 lg:ml-20 justify-self-center">
+    <div class="grid gap-12 pl-12 pr-20 md:px-8 items-start sm:ml-12 lg:ml-20 justify-self-center">
       <StrategySection />
     </div>
-    <div class="px-8 relative left-10 justify-self-center">
+    <div class="px-4 lg:px-12 md:w-10/12 lg:w-auto relative xl:left-10 justify-self-center">
       <ServiceSection />
     </div>
   </div>

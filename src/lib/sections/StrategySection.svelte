@@ -3,7 +3,7 @@
 </script>
 
 
-<img src="/images/strategy.png" class="md:hidden" />
+<img src="/images/strategy.png" class="md:hidden pl-0" />
 <div class="grid grid-cols-12 lg:grid-cols-2">
   <div class="col-span-12 md:col-span-5 lg:col-span-1">
     <div class="label-text pb-4"> NAŠE STRATEGIE </div>
