@@ -26,4 +26,8 @@
     font-family: 'Poppins';
     @apply font-light text-xs lg:text-base text-cyan-400;
   }
+  .text-font-bold {
+    font-family: 'Poppins';
+    @apply font-bold text-xs lg:text-base text-cyan-400;
+  }
 </style>
