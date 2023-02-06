@@ -1,10 +1,12 @@
 <script>
   export let titleText;
   export let labelText;
+  export let padding;
 </script>
 
 
-<div class="grid gap-2 text-center">
+
+<div class="grid gap-2 text-center {padding}">
   <div class="text pb-4"> {labelText} </div>
   <span class="thick-text-font-md"> {titleText} </span> <br/>
   <span class="description-text-font-md lg:w-full justify-self-center"> <slot/> </span>

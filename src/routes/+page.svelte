@@ -12,7 +12,7 @@
     <div class="grid gap-12 pl-8 px-16 items-start sm:ml-20 lg:ml-0">
       <MainSection />
     </div>
-    <div class="md:px-10 lg:px-0 justify-self-center">
+    <div class="pr-8 md:px-10 lg:px-0 justify-self-center">
       <ExpectationSection />
     </div>
     <div class="px-8 md:pl-4 md:pr-16 lg:pr-0 items-start sm:ml-20 lg:ml-0 lg:mt-16">
