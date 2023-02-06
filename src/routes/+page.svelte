@@ -28,7 +28,7 @@
     <div class="px-4 lg:px-12 md:w-10/12 lg:w-auto relative xl:left-10 justify-self-center">
       <WorkSection />
     </div>
-    <div class="px-4 lg:px-12 md:w-10/12 lg:w-auto relative xl:left-10 justify-self-center">
+    <div class="px-8 lg:px-0 md:w-10/12 lg:w-auto relative xl:left-10 justify-self-center">
       <ReferenceSection />
     </div>
   </div>

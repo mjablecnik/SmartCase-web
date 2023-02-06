@@ -3,12 +3,15 @@
   import Client from './reference/Client.svelte';
 
   export let stars = "";
+  export let visibility = "";
 </script>
 
-<div class="grid gap-6">
-  <Card {stars}>
-    sectensecte  nsecteconseueelit. Lorem ipsum dolor sit amet, consectetueelit.Lorem ipsum dolor sit amet,nsectensecte etueeconsectetlit.Lorem ipsum dolor sit amet, consectetueelit.sectensecte  nsecteconseueelit. Lorem ipsum dolor sit amet, consectetueelit.Lorem ipsum dolor sit amet,nsectensecte etueeconsectetlit.
-  </Card>
-  <Client />
+<div class="{visibility}">
+  <div class="grid gap-6">
+    <Card {stars}>
+      sectensecte  nsecteconseueelit. Lorem ipsum dolor sit amet, consectetueelit.Lorem ipsum dolor sit amet,nsectensecte etueeconsectetlit.Lorem ipsum dolor sit amet, consectetueelit.sectensecte  nsecteconseueelit. Lorem ipsum dolor sit amet, consectetueelit.Lorem ipsum dolor sit amet,nsectensecte etueeconsectetlit.
+    </Card>
+    <Client />
+  </div>
 </div>
 
