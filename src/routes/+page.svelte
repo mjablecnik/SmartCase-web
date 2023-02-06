@@ -5,6 +5,7 @@
   import StrategySection from '../lib/sections/StrategySection.svelte';
   import ServiceSection from '../lib/sections/ServiceSection.svelte';
   import WorkSection from '../lib/sections/WorkSection.svelte';
+  import ReferenceSection from '../lib/sections/ReferenceSection.svelte';
 </script>
 
 <div class="container mx-auto block w-auto">
@@ -26,6 +27,9 @@
     </div>
     <div class="px-4 lg:px-12 md:w-10/12 lg:w-auto relative xl:left-10 justify-self-center">
       <WorkSection />
+    </div>
+    <div class="px-4 lg:px-12 md:w-10/12 lg:w-auto relative xl:left-10 justify-self-center">
+      <ReferenceSection />
     </div>
   </div>
 </div>
