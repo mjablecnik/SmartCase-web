@@ -26,7 +26,7 @@
 
 <style>
   .outline-rounded-style {
-    @apply outline outline-cyan-400 md:rounded rounded-sm outline-1 text-font text-cyan-400;
+    @apply outline outline-cyan-400 md:rounded-lg rounded-sm outline-1 text-font text-cyan-400 bg-white;
   }
   .fill-rounded-style {
     @apply bg-cyan-400 md:rounded-md rounded-sm text-font text-white;

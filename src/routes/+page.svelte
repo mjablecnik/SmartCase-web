@@ -6,6 +6,7 @@
   import ServiceSection from '../lib/sections/ServiceSection.svelte';
   import WorkSection from '../lib/sections/WorkSection.svelte';
   import ReferenceSection from '../lib/sections/ReferenceSection.svelte';
+  import ContactSection from '../lib/sections/ContactSection.svelte';
 </script>
 
 <div class="container mx-auto block w-auto">
@@ -30,6 +31,9 @@
     </div>
     <div class="px-8 lg:px-0 md:w-10/12 lg:w-auto relative xl:left-10 justify-self-center">
       <ReferenceSection />
+    </div>
+    <div class="px-8 pt-16 lg:pt-32 md:px-24 lg:px-20 md:w-10/12 lg:w-auto relative xl:left-10">
+      <ContactSection />
     </div>
   </div>
 </div>
