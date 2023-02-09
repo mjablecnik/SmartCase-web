@@ -8,7 +8,7 @@
 <div class="flex justify-start {clazz}">
 <button
   on:click
-  class="pl-2 pr-2 py-2 pl-3 lg:py-2 lg:pl-5 lg:pr-3 arrow {filled ? "fill-rounded-style" : "outline-rounded-style"} "
+  class="pl-2 pr-1.5 py-2 pl-3 lg:py-1.5 lg:pl-5 lg:pr-3 arrow {filled ? "fill-rounded-style" : "outline-rounded-style"} "
   type="button"
 >
 <div class="py-1 lg:py-2 {padding}">

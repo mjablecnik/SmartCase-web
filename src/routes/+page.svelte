@@ -1,5 +1,6 @@
 <script>
   import MainSection from '../lib/sections/MainSection.svelte';
+  import Footer from '../lib/sections/Footer.svelte';
   import ExpectationSection from '../lib/sections/ExpectationSection.svelte';
   import ClientsSection from '../lib/sections/Clients.svelte';
   import StrategySection from '../lib/sections/StrategySection.svelte';
@@ -34,6 +35,9 @@
     </div>
     <div class="px-8 pt-16 lg:pt-32 md:px-24 lg:px-20 md:w-10/12 lg:w-auto relative xl:left-10">
       <ContactSection />
+    </div>
+    <div class="px-8 md:px-24 lg:px-20 md:w-10/12 lg:w-auto relative xl:left-10 hidden xl:block">
+      <Footer />
     </div>
   </div>
 </div>
