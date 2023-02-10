@@ -10,12 +10,12 @@
 
 <div class="grid">
   <div class="py-20">
-    <SectionTitle labelText="NAŠE PRÁCE" titleText="Jak vypadá naše práce v praxi?" padding="pl-4 pr-16 md:px-0">
-      Použití a reálné výsledky v praxi jsou bezpochybně ta nejdůležitější část. <br class="hidden lg:block"/>
+    <SectionTitle labelText="NAŠE PRÁCE" titleText="Jak vypadá naše práce v praxi?" padding="p-0 md:px-0">
+      Použití a reálné výsledky v praxi jsou bezpochybně ta nejdůležitější část. <br class="hidden sm:block"/>
       Podívejte se sami, jak naše práce v praxi vypadá.
     </SectionTitle>
   </div>
-  <div class="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-4 gap-6 md:justify-items-center px-12 md:px-7 lg:px-0">
+  <div class="grid grid-cols-1 sm:grid-cols-2 sm:grid-rows-2 lg:grid-cols-4 gap-6 justify-items-center px-6">
     <WorkCard color="#226FB7" shadowColor="rgba(164, 188, 218, 0.46)" label="strategie"/>
     <WorkCard color="#FBB800" shadowColor="rgba(251, 184, 0, 0.3)"    label="příspěvky"/>
     <WorkCard color="#00A976" shadowColor="rgba(0, 169, 118, 0.23)"   label="strategie"/>
