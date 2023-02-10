@@ -25,7 +25,7 @@
 
 <style>
   .box {
-    @apply w-[20rem] h-[13rem] md:w-[38rem] md:h-[16rem] lg:w-[54rem] lg:h-[26rem] xl:w-[83rem] xl:h-[30rem];
+    @apply w-[20rem] h-[13rem] md:w-[38rem] md:h-[16rem] lg:w-[54rem] lg:h-[26rem] xl:w-[76rem] xl:h-[30rem] 2xl:w-[83rem] ;
     @apply rounded-[1.5rem] md:rounded-[2.5rem] lg:rounded-[4rem];
   }
 

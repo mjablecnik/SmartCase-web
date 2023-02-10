@@ -10,10 +10,10 @@
       Přesvěčte se sami, jak hodnotí naše služby a spolupráci s námi.
     </SectionTitle>
   </div>
-  <div class="grid lg:grid-cols-2 xl:grid-cols-3 xl:gap-12 ">
+  <div class="grid lg:grid-cols-2 2xl:grid-cols-3 xl:gap-12 ">
     <Reference stars="4" visibility="" />
     <Reference stars="5" visibility="hidden lg:block" />
-    <Reference stars="4" visibility="hidden xl:block" />
+    <Reference stars="4" visibility="hidden 2xl:block" />
   </div>
 
 </div>

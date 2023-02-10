@@ -4,7 +4,7 @@
 </script>
 
 <div class="grid">
-  <div class="py-12">
+  <div class="py-12 lg:pr-24">
     <SectionTitle labelText="SLUŽBY" titleText="Lorem ipsum dolor sit" padding="pl-6 pr-14 md:px-0">
       Zakládáme si na kvalitě a dostupnosti. <br/>
       U nás si každý najde své dle jeho potřeby.

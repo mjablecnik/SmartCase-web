@@ -5,7 +5,7 @@
 </script>
 
 <!-- Desktop screen -->
-<div class="p-8 hidden xl:block">
+<div class="py-8 hidden xl:block">
   <div class="box box-radius flex">
     <div class="box box-radius p-12 px-8 grid gap-4">
       <div class="text"> OČEKÁVÁNÍ </div>

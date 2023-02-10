@@ -5,7 +5,7 @@
   import Button from '../components/Button.svelte';
 </script>
 
-<div class="flex gap-32">
+<div class="flex gap-24 2xl:gap-32">
   <Description />
   <Links name="KONTAKT" />
   <Links name="PODMÍNKY" />
