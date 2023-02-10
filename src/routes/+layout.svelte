@@ -3,6 +3,7 @@
   import Header from '../lib/sections/Header.svelte';
 </script>
 
-
-<Header />
-<slot />
+<div class="grid">
+  <Header />
+  <slot />
+</div>
